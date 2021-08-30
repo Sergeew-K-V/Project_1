@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: url("/Project/img/neonflames.png");
+  height: 1860px;
+  color: white;
+  padding: 90px 0 0 0;
+}
+
+.block-title {
+  position: relative;
+  height: 1080px;
+  margin: 0 auto;
+}
+
+.block-title__title {
+  margin: 0 0 100px;
+}
+
+.block-title__first-part {
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+.block-title__second-part {
+  font-size: 20px;
+}
+
+.block-title__link {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto 0;
+  width: 23%;
+  border: 2px solid white;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  padding: 0 0 30px 0;
+}
+
+.title:after {
+  content: '';
+  position: absolute;
+  width: 350px;
+  bottom: 0;
+  height: 3px;
+  left: 50%;
+  background-color: white;
+  margin: 0 0 0 -175px;
+}
+
+.link {
+  color: white;
+  font-size: 30px;
+}
+
+.about {
+  padding: 0 0 100px;
+}
+
+.about__menu {
+  word-spacing: 100px;
+  text-align: center;
+  border: 2px solid white;
+  text-align: center;
+  width: 29%;
+  margin: 20px auto 100px;
+}
+
+.about__title {
+  font-size: 40px;
+  margin: 0 0 50px 0;
+}
+
+.about__text {
+  color: white;
+  text-align: center;
+  margin: 0 400px 100px;
+  font-size: 30px;
+  text-shadow: black 3px 3px 3px;
+}
+
+.about__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin: 0 15px;
+}
+
+.about__column {
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.item-about {
+  font-size: 30px;
+}
+
+.item-about__icon {
+  margin: 0px auto 20px auto;
+  border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-about__title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.item-about__text {
+  text-align: center;
+  margin: 20px auto;
+  width: 50%;
+}
