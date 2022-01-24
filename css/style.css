@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -89,10 +89,10 @@ h6 {
 
 body {
   font-family: 'Playfair Display', serif;
-  background: url("/Project/img/neonflames.png");
+  background: url('/img/neonflames.png');
   height: 1860px;
-  color: white;
   padding: 90px 0 0 0;
+  color: white;
 }
 
 .block-title {
@@ -171,8 +171,6 @@ body {
 }
 
 .about__blocks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
   margin: 0 15px;
@@ -181,8 +179,8 @@ body {
 .about__column {
   width: 200px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.333%;
-          flex: 0 0 33.333%;
+  -ms-flex: 0 0 33.333%;
+  flex: 0 0 33.333%;
 }
 
 .item-about {
@@ -194,15 +192,13 @@ body {
   border-radius: 50%;
   width: 92px;
   height: 92px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .item-about__title {
